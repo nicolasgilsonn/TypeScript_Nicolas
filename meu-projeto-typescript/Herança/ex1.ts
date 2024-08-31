@@ -14,7 +14,7 @@ class Funcionario {
 }
 
 class Gerente extends Funcionario {
-
+    
     constructor(nome: string, cargo: string, salario: number, public departamento: string) {
         super(nome, cargo, salario)
     }
