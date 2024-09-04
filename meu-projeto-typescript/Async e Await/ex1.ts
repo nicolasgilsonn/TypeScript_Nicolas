@@ -15,7 +15,6 @@ async function buscarDadosDaAPI(): Promise<string> {
     )
 }
 
-// Exemplo de uso:
 async function executarBusca() {
     try {
         const dados = await buscarDadosDaAPI();
